@@ -1,3 +1,5 @@
+package task2;
+
 public class Task2 {
 
     private static boolean Checker(int i) {
@@ -21,7 +23,7 @@ public class Task2 {
         for (int i = 1; i <= number; i++){
             boolean check = Checker(i);
             if ((i != 1) & (check)){
-                System.out.print("    " + i + " ");
+                System.out.print("\t" + i);
                 counter++;
                 if (counter % 7 == 0)
                 System.out.println();
@@ -31,9 +33,11 @@ public class Task2 {
         }
     }    
     public static void main(String[] args) {
+
         System.out.println();
         System.out.println("Данная программа выводит таблицу простых чисел от 1 до 1000.");
         System.out.println();
         simpleNumbers(1000);
+
     }
 }

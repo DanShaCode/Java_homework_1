@@ -1,3 +1,5 @@
+package task1;
+
 import java.util.Scanner;
 
 public class Task1 {
@@ -16,7 +18,7 @@ public class Task1 {
             product *= i;
         }
         System.out.println();
-        System.out.printf("Факториал чила (%d) = %d", number, product);
+        System.out.printf("Факториал числа (%d) = %d", number, product);
         System.out.println();
     }
 

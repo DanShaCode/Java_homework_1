@@ -1,3 +1,5 @@
+package task3;
+
 import java.util.Scanner;
 
 public class Task3 {
@@ -49,9 +51,8 @@ public class Task3 {
             System.out.println();
             System.out.println("Ответ: " + result);
         } else {
-            String doubleRes = String.format("%.2f", op);
             System.out.println();
-            System.out.printf("Ответ: %s", doubleRes);
+            System.out.print("Ответ: " + op);
             System.out.println();
         }
     }
